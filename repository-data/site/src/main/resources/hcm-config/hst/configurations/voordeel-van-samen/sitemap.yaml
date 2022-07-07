@@ -20,11 +20,7 @@ definitions:
         hst:componentconfigurationid: hst:pages/newslist
         hst:pagetitle: List of News Items
         hst:relativecontentpath: news
-        /_any_.html:
-          jcr:primaryType: hst:sitemapitem
-          hst:componentconfigurationid: hst:pages/newspage
-          hst:relativecontentpath: ${parent}/${1}
         /_any_:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/newslist
-          hst:relativecontentpath: ${parent}/${1}
+          hst:relativecontentpath: content/news/newsFacets/hippo:resultset/${1}

@@ -22,5 +22,5 @@ definitions:
         hst:relativecontentpath: news
         /_any_:
           jcr:primaryType: hst:sitemapitem
-          hst:componentconfigurationid: hst:pages/newslist
-          hst:relativecontentpath: content/news/newsFacets/hippo:resultset/${1}
+          hst:componentconfigurationid: hst:pages/newspage
+          hst:relativecontentpath: news/faceted-news/hippo:resultset/${1}

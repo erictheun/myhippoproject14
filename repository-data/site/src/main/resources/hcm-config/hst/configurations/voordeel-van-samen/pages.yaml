@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/voordeel-van-samen/hst:pages:
+      jcr:primaryType: hst:pages

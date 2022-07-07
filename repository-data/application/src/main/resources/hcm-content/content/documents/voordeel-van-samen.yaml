@@ -1,0 +1,8 @@
+/content/documents/voordeel-van-samen:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 6281575a-4c70-4134-858f-678fcb2b96f7
+  hippo:name: My Project
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 8e43aa60-f762-427b-916a-a950940975b8
+  hippotranslation:locale: en

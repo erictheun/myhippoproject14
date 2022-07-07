@@ -12,3 +12,10 @@ definitions:
           jcr:primaryType: hst:mount
           hst:homepage: root
           hst:mountpoint: /hst:myproject/hst:sites/myproject
+          /voordeel-van-samen:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:mount
+            hst:alias: Voordeel Van Samen
+            hst:homepage: root
+            hst:locale: nl_NL
+            hst:mountpoint: /hst:myproject/hst:sites/voordeel-van-samen

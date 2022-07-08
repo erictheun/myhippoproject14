@@ -220,3 +220,7 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+  /faceted-news:
+    jcr:primaryType: hippofacnav:facetnavigation
+    hippo:docbase: 6f2e8741-886f-4a6d-bbe5-dbcd03e26dac
+    hippofacnav:facets: ['myproject:author', 'myproject:source']

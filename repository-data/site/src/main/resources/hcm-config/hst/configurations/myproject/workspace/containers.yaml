@@ -2,3 +2,66 @@ definitions:
   config:
     /hst:hst/hst:configurations/myproject/hst:workspace/hst:containers:
       jcr:primaryType: hst:containercomponentfolder
+      /base:
+        jcr:primaryType: hst:containercomponentfolder
+        /top:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: c17ecd41-2c26-4468-bba9-ffe100115977
+          hst:label: Top
+          hst:xtype: hst.vbox
+        /footer:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 7727c0b4-0f35-40d5-99c3-3121fae5ba98
+          hst:label: Footer
+          hst:xtype: hst.vbox
+      /homepage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 168f73f1-9728-4c46-a0e2-cc6939a2430a
+          hst:label: Home Page Main
+          hst:xtype: hst.vbox
+      /pagenotfound:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 4eb41507-7802-44fe-a77a-56473d61791f
+          hst:label: Page-Not-Found Main
+          hst:xtype: hst.vbox
+      /bloglistdetail:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: f55b3ca1-0dc2-4dc7-96f6-a9f09bdbd9a6
+          hst:label: Blog List Main
+          hst:xtype: hst.vbox
+      /bloglistsidebar:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 9c1d62ea-35db-43d3-9195-bee4dfdd5014
+          hst:label: Blog List Sidebar
+          hst:xtype: hst.vbox
+      /blogpagesidebar:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: f0f59e1d-24a5-4eb6-a2f4-47effa9ca0f1
+          hst:label: Blog Page Sidebar
+          hst:xtype: hst.vbox
+      /blogpagedetail:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: ac8510d8-9443-434d-9a45-1465a48f1927
+          hst:label: Blog Page Main
+          hst:lastmodified: 2014-04-15T15:02:10.775+02:00
+          hst:xtype: hst.vbox
